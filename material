@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class GlassesMaterial {
+    public static void main(String[] args) {
+        System.out.println("What material of glasses do you want？");
+        Scanner scanner = new Scanner(System.in);
+        String material = scanner.nextLine();
+        System.out.println("The material of glasses you want is:" + material);
+    }
+}
